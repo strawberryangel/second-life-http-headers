@@ -1,0 +1,23 @@
+{
+  "author": {
+    "email": "sophie.jeanne.la.douce@gmail.com",
+    "name": "Sophie-Jeanne la Douce",
+    "url": "https://github.com/strawberryangel"
+  },
+  "description": "HTTP headers produced by LSL's llHttpRequest(). Not associated with or endorsed by Linden Labs.",
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "rimraf": "^2.6.2",
+    "typescript": "^2.7.2"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@blackpaw/second-life-http-headers",
+  "scripts": {
+    "install": "tsc",
+    "make": "rimraf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typings": "dist/index",
+  "version": "1.0.0"
+}

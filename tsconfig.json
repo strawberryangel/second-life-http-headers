@@ -1,0 +1,22 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "declaration": true,
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "outDir": "dist",
+        "sourceMap": false,
+        "strictNullChecks": true,
+        "target": "es6"
+    },
+    "exclude": [
+        "node_modules",
+        ".git",
+        ".idea",
+        ".vs",
+        "js"
+    ],
+    "files": [
+        "src/index.ts"
+    ]
+}
