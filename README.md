@@ -75,3 +75,8 @@ class Rotation {
 ```
 
 
+## Versions
+
+### 1.0.2
+
+Fix package.json problems. 

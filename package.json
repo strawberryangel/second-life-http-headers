@@ -5,6 +5,7 @@
     "url": "https://github.com/strawberryangel"
   },
   "description": "HTTP headers produced by LSL's llHttpRequest(). Not associated with or endorsed by Linden Labs.",
+  "bugs": "https://github.com/strawberryangel/second-life-http-headers/issues",
   "devDependencies": {
     "@types/node": "^7.0.5",
     "rimraf": "^2.6.2",
@@ -13,11 +14,11 @@
   "license": "MIT",
   "main": "dist/index.js",
   "name": "@blackpaw/second-life-http-headers",
+  "repository": "git@github.com:strawberryangel/second-life-http-headers.git",
   "scripts": {
-    "install": "tsc",
     "make": "rimraf dist && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "typings": "dist/index",
-  "version": "1.0.0"
+  "version": "1.0.2"
 }
